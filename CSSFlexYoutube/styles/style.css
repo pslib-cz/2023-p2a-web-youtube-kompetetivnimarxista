@@ -2,25 +2,55 @@
 
 .main {
    gap: 1em;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   align-items: stretch;
 }
 
 .ytv {
-    
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between; 
+   gap: 1em;
 }
 .ytv__bottom {
+   display: flex;
+   align-items: end;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex-grow: 1;
+   justify-content: space-between;
     
 }
 .ytv__left {
-    
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 1em;
 }
 .ytv__right {
-    
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;  
+   gap: 1em;
 }
 .profile {
-    
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   flex-grow: 1;
+   gap: 1em;
 }
 .profile__text {
-    
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 0.5em;
 }
 .icon {
 
